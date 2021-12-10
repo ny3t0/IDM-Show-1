@@ -1,9 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@300;400;600;700&family=Syne+Mono&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;1,300;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300;1,700&display=swap');
 
 @font-face {
   src: url('TINY5x3-140.woff2');
   font-family: 'TINY5x3';
+  font-weight: 140;
+}
+
+@font-face {
+  src: url('TINY5x3-120.woff2');
+  font-family: 'TINY5x3';
+  font-weight: 120;
+}
+
+@font-face {
+  src: url('TINY5x3-100.woff2');
+  font-family: 'TINY5x3';
+  font-weight: 100;
 }
 
 
@@ -17,9 +30,11 @@
   /* --hoverColor: #57068c; */
   --hoverColor: var(--foregroundColor);
   --headerFont: 'TINY5x3';
-  --headerWeight: 140;
+  --headerWeight: 100;
+  --header3Weight: 140;
   --headerTransform: uppercase;
-  --headerLetterSpacing: 0.2em;
+  --h3Transform;
+  --headerLetterSpacing: 0.1em;
   /* --bodyFont: 'Overpass Mono', monospace; */
   --bodyFont: 'Open Sans', sans-serif;
   --h2Size: 3em;
@@ -43,10 +58,11 @@ html {
   font-family: var(--bodyFont);
   min-height: 100%;
   color: var(--foregroundColor);
+
 }
 
 body {
-  /* font-size: 1.2em; */
+  font-weight: 400;
 }
 
 a {
@@ -100,7 +116,7 @@ h1,
 h2,
 h3 {
   font-family: var(--headerFont);
-  font-weight: var(--headerWeight);
+  ;
   text-transform: var(--headerTransform);
   letter-spacing: var(--headerLetterSpacing);
   /* font-size: 2em; */
@@ -108,10 +124,13 @@ h3 {
 
 h2 {
   font-size: 3em;
+  font-weight: 60;
+
 }
 
 h3 {
   font-size: 2em;
+  font-weight: var(--header3Weight)
 }
 
 #headerTitle {
@@ -263,12 +282,21 @@ nav>p:first-child {
   padding: 0;
 }
 
-.projectPreview>div>p:nth-child(1),
+.projectPreview>div>p:nth-child(1) {
+  font-family: var(--headerFont);
+  font-size: var(--h3Size);
+  text-transform: var(--headerTransform);
+  margin-bottom: 8px;
+  font-weight: var(--headerWeight);
+}
+
+
 .projectPreview>div>p:nth-child(2) {
   font-family: var(--headerFont);
   font-size: var(--h3Size);
   text-transform: var(--headerTransform);
   margin-bottom: 8px;
+  font-weight: var(--header3Weight);
 }
 
 .projectPreview .shortDescription {
