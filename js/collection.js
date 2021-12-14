@@ -306,7 +306,7 @@ let projectCollection = {
     "Long Description of your work (4-6 sentences)": "In recent years, deepfake videos—videos generated with machine learning—have garnered negative coverage in the media, primarily over concerns that the technology will be used to spread misinformation and fake news. This project is an attempt to examine that discourse more critically and use the technology in an artistic way. In the spirit of critical media interventions like those conducted by the Yes Men, I try to use deepfakes to render a speculative world in which those with power and influence apologize for the wrongs they have committed and thus far succeeded in living down. When people view these videos and realize they are fake, they will hopefully wonder, “Why isn’t this real?”",
     "Main Image": "https://drive.google.com/u/0/open?usp=forms_web&id=1MelWc4X-zh8LrCA2bg6MPj70O_ANdni-",
     "Supporting Images": "",
-    "Project Link": "http://auqoravtran.com/apologytour/",
+    "Project Link": "auqoravtran.com/apologytour/",
     "Project Hashtag #": "",
     "Project Themes & Keywords": "emerging technology"
   },
@@ -343,7 +343,7 @@ let projectCollection = {
     "Full Name": "Xinyue Zhang",
     "Email": "xz2337@nyu.edu",
     "Net ID": "xz2337",
-    "Link to your personal portfolio": "http://xinyuezhang.myportfolio.com",
+    "Link to your personal portfolio": "xinyuezhang.myportfolio.com",
     "Profile Picture": "https://drive.google.com/u/0/open?usp=forms_web&id=1Bmnj5NL_s0mqQ9FI4hee4gQixOaLaWvF",
     "Supplementary photos": "",
     "Instagram Handle": "@c42zzzz",
@@ -421,7 +421,7 @@ let projectCollection = {
     "Full Name": "Nelson James",
     "Email": "nj900@nyu.edu",
     "Net ID": "nj900",
-    "Link to your personal portfolio": "http://nelsonajames.com",
+    "Link to your personal portfolio": "nelsonajames.com",
     "Profile Picture": "https://drive.google.com/u/0/open?usp=forms_web&id=1veXmrQ7W7eNPIVJZQjPSq917VT82UqU9",
     "Supplementary photos": "",
     "Instagram Handle": "nelsonajames",
@@ -544,7 +544,7 @@ let projectCollection = {
     "Project Hashtag #": "",
     "Project Themes & Keywords": ""
   },
- 
+
   {
     "Timestamp": "2021/11/29 12:21:43 AM EST",
     "Username": "jba9756@nyu.edu",
@@ -656,7 +656,7 @@ let projectCollection = {
     "Full Name": "Sophia Ferrera",
     "Email": "sophferrera@gmail.com",
     "Net ID": "slf445",
-    "Link to your personal portfolio": "http://sophine.online",
+    "Link to your personal portfolio": "sophine.online",
     "Profile Picture": "https://drive.google.com/u/0/open?usp=forms_web&id=1o_XVMY7bki6YT-90PSBG0FLvz6TMxxpA",
     "Supplementary photos": "",
     "Instagram Handle": "sophine.online",
